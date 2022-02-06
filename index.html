@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Adam Iqbal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d29e5712e5.js" crossorigin="anonymous"></script>
+   </head>
+<body>
+
+<!--Overlay-->
+<div class="overlay">
+</div>
+
+<!--Page Loader-->
+<div class="page-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<!--Main-->
+<div class="main hidden">
+    <!--Header-->
+    <header class="header">
+        <div class="container">
+            <div class="row flex-end">
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <nav class="nav">
+                    <div class="nav-inner">
+                        <ul>
+                            <li><a href="#home" class="nav-item link-item">Home</a></li>
+                            <li><a href="#about" class="nav-item link-item">About Me</a></li>
+                            <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+                            <li><a href="#contact" class="nav-item link-item">Contact Me</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--Home-->
+    <section class="home-section align-items-center " id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="home-text">
+                    <p>Hello I'm</p>
+                    <h1>Adam Iqbal</h1>
+                    <h2>You can find information about my projects, experience & education history here.</h2>
+                    <a href="#about" class="btn link-item">More about me</a>
+                    <a href="#portfolio" class="btn link-item">Portfolio</a>
+                </div>
+                <div class="home-img">
+                    <div class="img-box">
+                        <img src="img/profile-img.png" alt="profile-img">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About-->
+    <section class="about-section sec-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>About me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box">
+                        <img src="img/about-img.png" alt="about-img">
+                    </div>
+                </div>
+                <div class="about-text">
+                <p>I am a second-year student, studying BSc Computer Science at the University of Derby, currently on target to achieve a first. I am highly motivated and organised individual, with an immense passion for the work I do. I take interest in learning new programming skills and create projects in my spare time as a hobby. I am a quick learner and pick up new skills fast, whether this is learning new languages, algorithms or data structures. My experience has demonstrated my skills in working to strict deadlines whether it is alone or within a team of colleagues. I am currently looking for a 12-month placement from summer 2022 in Software Engineering/Development to help develop my skills and gain experience in industry.</p>
+                <h3>Skills</h3>
+                <div class="familiar-languages">
+                    <div class="skill-item">C</div>
+                    <div class="skill-item">C#</div>
+                    <div class="skill-item">C++</div>
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">SQL Server</div>
+                    <div class="skill-item">CSS</div>
+                    <div class="skill-item">JavaScript</div>
+                    <div class="skill-item">HTML</div>
+                </div>
+                <div class="about-tabs">
+                    <button type="button" class="tab-item active" data-target="#education">education</button>
+                    <button type="button" class="tab-item" data-target="#experience">experience</button>
+                </div>
+
+                 <!--Education-->
+                 <div class="tab-content active" id="education">
+                     <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">2013 - 2018</span>
+                            <h4>GCSE - <span>Saint Benedict Catholic Voluntary</span></h4>
+                            <p>6 GCSE Grades between 6-5, Level 2 Pass IT</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">2018 - 2020</span>
+                            <h4>A Levels - <span>Derby College Joseph Wright Centre</span></h4>
+                            <p>Business (C), Computer Science (E), Geography (C)</p>
+                        </div>
+                         <div class="timeline-item">
+                             <span class="date">2020 - Current</span>
+                             <h4>BSc (Hons) Computer Science - <span>University of Derby</span></h4>
+                             <p>Currently in my Second Year, on target to achieve a first</p>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="experience">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="date">April 2020 - Current</span>
+                            <h4>Trading Assistant - <span>Sainsbury</span></h4>
+                            <p>Interacting with customers while operating the tills is key to give them the best customer service skills possible, increasing my confidence dealing with all types of customers.<br>I also work as part of a team ensuring we are collectively able to complete the tasks at hand.<br>Working in a consistently fast paced environment which has taught me time management skills and perseverance</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="CV/CV.docx" target="_blank" class="btn">Download CV</a>
+                <a href="#contact" class="btn link-item">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio-->
+    <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>My Projects</h2>
+                </div>
+            </div>
+        <div class="row">
+            <!--Portfolio Projects Start-->
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/txtBasedGameCover.PNG" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">Text Based Game</h3>
+                <button type="button" class="btn view-project-btn">View Project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>This Text based Game allows the user to create a character and once the game is started it will place the user in multiple different scenarios, based upon how the user chooses to responses to each scenrio.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Technologies used - <span>C#</span></li>
+                            <li>View Source Code Link - <span><a href="https://github.com/Adam-I07/Text-Based-Game">Click here to access the Source Code</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/3DModel.png" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">3D Model</h3>
+                <button type="button" class="btn view-project-btn">View Project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>Within this application I have implemented a program that displays a fully rendered 3D Model. This model was made using Complex Math and Matrix Manipulation to work out and draw the model using polygons with features such as polygon sorting and backface culling implemented to remove the polygons not in frame. I have also implemented Ambient, Point and Diffuse lighting as well as writting my own code to shade in the model. In the code you can find code to shade in the model using flat shading. This model was made without using APIs such as OpenGL or DirectX.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Technologies used - <span>C++ Win32 API</span></li>
+                            <li>View Source Code - <span><a href="https://github.com/Adam-I07/3D-Model">Click here to access the Source Code</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/Chatroom-img.jpg" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">Chatroom</h3>
+                <button type="button" class="btn view-project-btn">View Project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>This Chatroom application was made using Python Socket Programming. I made a server that handles all the clients that join and leave the Chatroom. The Server has special commands that are sent to the server from the client when they want to leave or find out who else is in the chatroom ect. Everything sent from the server to the client and vice versa is encrypted using Diffie-hellman encryption. When a client joins or sends messages to the server a new thread is made for that client. On the client side I have programmed a login and register system that saves all the registered info in a CVC document fully encypted with ceaser cipher. If the user does not wanted to make an account there is an option to join as a guest. There is error checking to make sure the same username isnt used more than once.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Technologies used - <span>Python</span></li>
+                            <li>View Source Code - <span><a href="https://github.com/Adam-I07/Chatroom">Click here to access the Source Code</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/CreditCard-Storage-Img.jpg" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">Card Detail Storage</h3>
+                <button type="button" class="btn view-project-btn">View Project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>Using C# WinForms, I have created an application that stores information about Credit Cards, Debit Cards, Passwords and Notes saved by the user. The information saved is written on a text file, to make sure that once the application is closed and re opened the information is not deleted and can be viewed or edited by the user.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Technologies used - <span>C#</span></li>
+                            <li>View Source Code - <span><a href="https://github.com/Adam-I07/Card-Detail-Store">Click here to access the Source Code</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/Password-Generator-Img.jpg" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">Password Generator</h3>
+                <button type="button" class="btn view-project-btn">View Project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>This application gives the user 6 different options of passwords that can be generated, depending on what the user chooses the application will then generate a password accordingly.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Technologies used - <span>C#</span></li>
+                            <li>View Source Code - <span><a href="https://github.com/Adam-I07/Password-Generator">Click here to access the Source Code</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/Higher-Or-Lower-Game-IMG.jpg" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">Higher or Lower Game</h3>
+                <button type="button" class="btn view-project-btn">View Project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>This application was created using C# WinForms. The main aim of the game is to guess the random generated number between 1 and 100, the user has 10 guesses before the game automatically stops. After every guess the game will let you know if you guessed to high, low or got the correct answer.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Technologies used - <span>C#</span></li>
+                            <li>View Source Code - <span><a href="https://github.com/Adam-I07/Higher-or-Lower-Game">Click here to access the Source Code</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/Calculator-img.jpg" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">Calculator</h3>
+                <button type="button" class="btn view-project-btn">View Project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>This application was created using C#. This is a basic calculator in which you choose the type of operation you wish to preform. Once selected the calculator will ask you to input the 2 numbers you wish to calculate and return the answer to the calculation.</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Technologies used - <span>C#</span></li>
+                            <li>View Source Code - <span><a href="https://github.com/Adam-I07/Calculator">Click here to access the Source Code</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-item-thumbnail">
+                    <img src="img/portfolio/FlappyBird-Img.jpg" alt="portfolio item thumb">
+                </div>
+                <h3 class="portfolio-item-title">Flappy Birds</h3>
+                <button type="button" class="btn view-project-btn">View Project</button>
+                <div class="portfolio-item-details">
+                    <div class="description">
+                        <p>This application was created using C# Winforms. This is a self made version of the game for phones "Flappy Birds".</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Technologies used - <span>C#</span></li>
+                            <li>View Source Code - <span><a href="https://github.com/Adam-I07/Flappy-Birds">Click here to access the Source Code</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Contact-->
+<section class="contact-section sec-padding" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2>Contact Information</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/meqnavza" method="post" id="my-form">
+                    <div class="row">
+                        <div class="input-group">
+                            <input type="text" name="name" placeholder="Name" class="input-control" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="e-mail" placeholder="Your Email" class="input-control" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" name="subject" placeholder="Subject" class="input-control" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea placeholder="Enter Message" name="message" class="input-control" required></textarea>
+                        </div>
+                        <div class="submit-btn">
+                            <button type="submit" class="btn">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="contact-info-item">
+                    <h3>Email</h3>
+                    <p>adamiqbal72002@gmail.com</p>
+                </div>
+                <div class="contact-info-item">
+                    <h3>Social Links</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/adam-iqbal-9358881ba/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Adam-I07"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div id="status"></div> 
+        </div>
+        
+    </div>
+</section>
+
+</div>
+<!--Main End-->
+
+<!--Portfolio Item Details Start-->
+<div class="portfolio-Details">
+    <div class="pd-inner">
+        <div class="pd-content">
+            <div class="pd-header">
+                <button type="button" class="btn pd-close">X</button>
+                <div class="pd-thumbnail">
+                    <img src="img/portfolio/txtBasedGameCover.PNG" alt="pd-thumbnail">
+                </div>
+                <h3></h3>
+            </div>
+            <div class="pd-body">
+            </div>
+        </div>
+    </div>
+</div>
+<!--Portfolio Item Details End-->
+
+<!-- Link to CSS File -->
+<script src="js/script.js"></script>
+</body>
+</html>
