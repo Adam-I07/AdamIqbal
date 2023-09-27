@@ -28,7 +28,7 @@ VARIABLES
 }
 body{
     min-height: 100vh;
-    background-image: url(../img/background-img.jpg);
+    background-color: silver;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
