@@ -1,18 +1,14 @@
 window.addEventListener("load", () =>{
     document.querySelector(".main").classList.remove("hidden");
     document.querySelector(".home-section").classList.add("active");
-    /*---------------
-    PAGE LOADER
-    -----------------*/ 
+    // Page Loader
     document.querySelector(".page-loader").classList.add("fade-out");
     setTimeout(() =>{
         document.querySelector(".page-loader").style.display = "none";
     }, 600);
 });
 
-/*-----------------
-TOGGLE NAVBAR
------------------*/
+// Toggle Navigation Bar
 const navToggler = document.querySelector(".nav-toggler");
 navToggler.addEventListener("click", () =>{
     hideSection();
@@ -25,9 +21,8 @@ function hideSection(){
 function toggleNavBar(){
     document.querySelector(".header").classList.toggle("active");
 }
-/*-----------------
-ACTIVE SECTION
------------------*/
+
+// Naviagte Different Section 
 document.addEventListener("click", (e) =>{
     if(e.target.classList.contains("link-item") && e.target.hash !== ""){
         document.querySelector(".overlay").classList.add("active");
@@ -49,9 +44,8 @@ document.addEventListener("click", (e) =>{
         }, 500);
     }
 })
-/*-----------------
-ABOUT TAB
------------------*/
+
+// About Tab
 const tabContainer = document.querySelector(".about-tabs"),
 aboutSection = document.querySelector(".about-section");
 
@@ -65,9 +59,7 @@ tabContainer.addEventListener("click", (e) =>{
     }
 })
 
-/*-----------------
-Portfolio Item Details
------------------*/
+// Portfolio Item Details
 document.addEventListener("click", (e) =>{
     if(e.target.classList.contains("view-project-btn")){
         togglePortfolioDetails();
